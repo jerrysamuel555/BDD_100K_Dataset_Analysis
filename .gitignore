@@ -1,0 +1,9 @@
+bdd100k_labels/
+.vscode/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+*.egg-info/
