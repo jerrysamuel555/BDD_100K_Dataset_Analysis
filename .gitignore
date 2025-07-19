@@ -7,3 +7,7 @@ __pycache__/
 .env
 .env.*
 *.egg-info/
+bdd100k_images_100k.zip
+bdd100k_images_100k/
+train.csv
+val.csv
