@@ -161,7 +161,7 @@ def draw_bboxes_on_image(image_path, bboxes):
 
 # --- Anomaly detection and visualization ---
 # You may need to adjust the path to your images
-image_dir = './bdd100k_images/100k/train'
+image_dir = './bdd100k_images_100k/100k/train'
 anomaly_images = []
 anomaly_info = detect_bbox_anomalies(train_df, n_images=4)
 for image_name, bboxes in anomaly_info:
