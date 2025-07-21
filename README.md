@@ -72,3 +72,10 @@ This repository provides a parser and dashboard for visualizing and analyzing ob
   - `train.csv`
   - `val.csv`
 
+## Data Analysis Summary
+
+- **Category Imbalance:** The dataset is heavily dominated by the "car" class, followed by traffic signs and lights. Minority classes (train, motor, bike, rider) are rare.
+- **Average Objects per Image:** Cars appear ~10 times per image, traffic signs ~3, traffic lights ~2.5, and persons ~1.3. Other classes are much less frequent.
+- **Weather:** Most images are in clear weather. Overcast, rainy, snowy, and partly cloudy are present in moderate numbers. Foggy scenes are very rare.
+- **Scene Types:** City street scenes make up the majority. Highway, residential, and parking lot scenes are moderately represented. Gas stations and tunnels are rare.
+- **Time of Day:** Most data is from daytime. Night and dawn/dusk are less common, with dawn/dusk being the least represented.
